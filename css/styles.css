@@ -4,8 +4,19 @@ font-family: 'Montserrat', sans-serif;
 a{
     text-decoration: none;
 }
-ul{
-    list-style: none;
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .header-logo{
     color: #111;
@@ -29,5 +40,322 @@ ul{
         font-size: 14px;
         font-weight: 500;
         line-height: 1.14;
+        letter-spacing: -0.02em;
+}
+.hero{
+    background: rgba(17, 17, 17, 0.60);
+}
+.hero-title {
+color: #FFF;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.21;
+    /* 121.429% */
+    letter-spacing: -0.03em;
+}
+
+.hero-buy-btn {
+    color: #FFF;
+        font-family: inherit;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: normal;
+        cursor: pointer;
+}
+
+.hero-made-btn {color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero-down-btn {
+    color: #FFF;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.29;
+        /* 128.571% */
+        letter-spacing: -0.03em;
+}
+
+.features {
+    background: #1E1823;
+}
+
+
+.title-item {
+    color: #FFF;
+ font-size: 18px;
+        font-weight: 600;
+        line-height: normal;
+}
+
+.paragraph-item { color: rgba(255, 255, 255, 0.70);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+.taste {}
+
+.taste-title {
+    color: #111;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.16;
+        /* 116.667% */
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+}
+.span-taste{
+    color: #FD9222;
+}
+
+.taste-paragpaph {
+    color: #111;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.29;
+        /* 128.571% */
+        letter-spacing: -0.02em;
+}
+
+.taste-list {}
+
+.taste-item {}
+
+.taste-title-item {
+    color: #111;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 18px;
+        /* 128.571% */
+        letter-spacing: -0.28px;
+}
+
+.section-made {
+}
+.name-made{
+    color: #FD9222;
+}
+
+.title-section-made {color: #111;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 116.667% */
+    letter-spacing: -0.72px;
+    text-transform: uppercase;}
+
+.titletwo-section-made {color: #111;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+    /* 133.333% */}
+
+.item-section-made {color: #111;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    /* 128.571% */
+    letter-spacing: -0.02em;
+}
+
+.title-section-products {
+    color: #111;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.16;
+        /* 116.667% */
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+}
+.name-product{
+color: #FD9222;
+}
+
+.title-name-products {color: #111;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+    /* 133.333% */
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.paragraph-title-uah{
+color: rgba(17, 17, 17, 0.70);
+font-family: inherit;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.16;
+    /* 116.667% */
+    letter-spacing: -0.02em;
+}
+.button-uah{
+    color: #111;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+}
+.section-top {}
+
+.title-section-top {
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+.name-span{
+color: #FD9222;
+}
+
+
+.title-item-section-top {
+    color: #111;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.33;
+        /* 133.333% */
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+}
+
+.name-chocolate{
+color: #FD9222;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.16;
+    /* 116.667% */
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+.title-section-reviews {
+color: #111;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+.list-section-reviews {}
+
+.item-section-reviews {}
+
+.name-title-section-reviews {
+    color: #111;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.33;
+        /* 133.333% */
+}
+
+.paragraph-item-section-reviews {color: rgba(17, 17, 17, 0.70);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    /* 128.571% */
+    letter-spacing: -0.02em;
+}
+
+.button-section-reviews {
+    color: #111;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+}
+.footer{
+    background: #1E1823;
+}
+
+
+.title-footer {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.21;
+    letter-spacing: -0.03em;
+}
+.footer-name-choco{
+color: #FD9222;
+}
+.parag-footer {color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.28;
+    /* 128.571% */
+}
+
+.list-footer {}
+
+.item-footer {}
+
+.parag-address {
+    color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.28;
+        /* 128.571% */
+
+}
+
+.list-address {}
+
+.link-contact, .link-cont { 
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    /* 128.571% */
+    letter-spacing: -0.02em;
+}
+
+.item-nav-footer, .link-footer {
+    color: #FFF;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.14;
+        /* 114.286% */
         letter-spacing: -0.02em;
 }
