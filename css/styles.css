@@ -1,8 +1,37 @@
 body{
 font-family: 'Montserrat', sans-serif;
 }
+p, h1, h2, h3, h4, h5, h6{
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+ul{
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
 a{
     text-decoration: none;
+    color: currentColor;
+}
+button{
+    cursor: pointer;
+}
+
+address{
+    font-style: normal;
+}
+header{
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+.container{
+    width: 1166px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .visually-hidden{
@@ -43,17 +72,23 @@ a{
         letter-spacing: -0.02em;
 }
 .hero{
-    background: rgba(17, 17, 17, 0.60);
+    padding-bottom: 80px;
 }
+
+.hero-container{
+    background-color: rgba(17, 17, 17, 0.60);
+    border-radius: 30px;
+    padding: 380px 40px 40px 40px;
+}
+
 .hero-title {
 color: #FFF;
-    font-family: Montserrat;
     font-size: 28px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.21;
-    /* 121.429% */
     letter-spacing: -0.03em;
+    margin-bottom: 32px;
+    max-width: 484px;
 }
 
 .hero-buy-btn {
@@ -83,6 +118,8 @@ color: #FFF;
 
 .features {
     background: #1E1823;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -91,6 +128,7 @@ color: #FFF;
  font-size: 18px;
         font-weight: 600;
         line-height: normal;
+        margin-bottom: 18px;
 }
 
 .paragraph-item { color: rgba(255, 255, 255, 0.70);
@@ -98,20 +136,22 @@ color: #FFF;
     font-weight: 400;
     line-height: 1.29;
     letter-spacing: -0.02em;
+
 }
-.taste {}
+.taste {
+    padding-top: 120px;
+}
 
 .taste-title {
     color: #111;
         text-align: center;
-        font-family: Montserrat;
         font-size: 24px;
-        font-style: normal;
         font-weight: 600;
         line-height: 1.16;
-        /* 116.667% */
         letter-spacing: -0.03em;
         text-transform: uppercase;
+        max-width: 412px;
+        margin: 0 auto 28px;
 }
 .span-taste{
     color: #FD9222;
@@ -122,8 +162,9 @@ color: #FFF;
         text-align: center;
         font-size: 14px;
         line-height: 1.29;
-        /* 128.571% */
         letter-spacing: -0.02em;
+        max-width: 456px;
+        margin: 0 auto 50px;
 }
 
 .taste-list {}
@@ -142,6 +183,7 @@ color: #FFF;
 }
 
 .section-made {
+    padding-top: 120px;
 }
 .name-made{
     color: #FD9222;
