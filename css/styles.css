@@ -20,6 +20,10 @@ button{
     cursor: pointer;
 }
 
+img{
+    display: block;
+}
+
 address{
     font-style: normal;
 }
@@ -34,27 +38,24 @@ header{
     margin: 0 auto;
 }
 
-.visually-hidden{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+.nav-cont{
+    display: block;
 }
+
+.header-navigator{
+
+}
+
 .header-logo{
     color: #111;
         font-size: 18px;
         font-style: italic;
         font-weight: 700;
         line-height: 1.11;
-        /* 111.111% */
         letter-spacing: -0.54px;
+        display: block;
+        
+
 }
 .header-logo-chocolate{
     color: #111;
@@ -63,7 +64,15 @@ header{
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: -0.03em;
+    
 }
+.header-menu-list{
+
+}
+.header-menu-item{
+
+}
+
 .header-menu-link{
     color: #111;
         font-size: 14px;
@@ -71,6 +80,23 @@ header{
         line-height: 1.14;
         letter-spacing: -0.02em;
 }
+.header-menu-link:hover
+.header-menu-link:focus
+.header-menu-link:active{
+    
+}
+
+.header-soc-list{
+
+}
+.header-soc-item{
+
+}
+
+.header-soc-link{
+
+}
+
 .hero{
     padding-bottom: 80px;
 }
@@ -101,6 +127,7 @@ color: #FFF;
 }
 
 .hero-made-btn {color: #FFF;
+    font-family: inherit;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -109,6 +136,7 @@ color: #FFF;
 
 .hero-down-btn {
     color: #FFF;
+    font-family: inherit;
         font-size: 14px;
         font-weight: 500;
         line-height: 1.29;
@@ -116,12 +144,21 @@ color: #FFF;
         letter-spacing: -0.03em;
 }
 
+/* ----------------feature--------------- */
+
 .features {
     background: #1E1823;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
+.features-list{
+
+}
+
+.features-item{
+
+}
 
 .title-item {
     color: #FFF;
@@ -138,6 +175,10 @@ color: #FFF;
     letter-spacing: -0.02em;
 
 }
+
+/* _____________TASTE---------------- */
+
+
 .taste {
     padding-top: 120px;
 }
@@ -157,7 +198,7 @@ color: #FFF;
     color: #FD9222;
 }
 
-.taste-paragpaph {
+.taste-paragraph {
     color: #111;
         text-align: center;
         font-size: 14px;
@@ -204,14 +245,21 @@ color: #FFF;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.33;
-    /* 133.333% */}
+}
+
+.list-section-made{
+
+}
 
 .item-section-made {color: #111;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.29;
-    /* 128.571% */
     letter-spacing: -0.02em;
+}
+
+.section-products{
+
 }
 
 .title-section-products {
@@ -227,12 +275,19 @@ color: #FFF;
 .name-product{
 color: #FD9222;
 }
+.list-section-products{
 
-.title-name-products {color: #111;
+}
+
+.item-section-products{
+
+}
+
+.title-name-products {
+    color: #111;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.33;
-    /* 133.333% */
     letter-spacing: -0.03em;
     text-transform: uppercase;
 }
@@ -243,7 +298,6 @@ font-family: inherit;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.16;
-    /* 116.667% */
     letter-spacing: -0.02em;
 }
 .button-uah{
@@ -254,15 +308,14 @@ font-family: inherit;
         font-weight: 600;
         line-height: normal;
 }
+
 .section-top {}
 
 .title-section-top {
     text-align: center;
     font-size: 24px;
-    font-style: normal;
     font-weight: 600;
     line-height: 1.17;
-    /* 116.667% */
     letter-spacing: -0.03em;
     text-transform: uppercase;
 }
@@ -270,27 +323,33 @@ font-family: inherit;
 color: #FD9222;
 }
 
+.list-section-top{
+
+}
+.item-section-top{
+
+}
 
 .title-item-section-top {
     color: #111;
-        font-family: Montserrat;
         font-size: 18px;
-        font-style: normal;
         font-weight: 600;
         line-height: 1.33;
-        /* 133.333% */
         letter-spacing: -0.02em;
         text-transform: uppercase;
 }
 
+/* --------section-reviews-------- */
+
 .name-chocolate{
 color: #FD9222;
     text-align: center;
+    font-family: Montserrat;
     font-size: 24px;
+    font-style: normal;
     font-weight: 600;
-    line-height: 1.16;
-    /* 116.667% */
-    letter-spacing: -0.02em;
+    line-height: 28px;
+    letter-spacing: -0.72px;
     text-transform: uppercase;
 }
 .title-section-reviews {
@@ -314,7 +373,6 @@ color: #111;
         font-size: 18px;
         font-weight: 600;
         line-height: 1.33;
-        /* 133.333% */
 }
 
 .paragraph-item-section-reviews {color: rgba(17, 17, 17, 0.70);
@@ -336,6 +394,9 @@ color: #111;
         font-weight: 600;
         line-height: normal;
 }
+
+
+
 .footer{
     background: #1E1823;
 }
@@ -350,22 +411,37 @@ color: #111;
     line-height: 1.21;
     letter-spacing: -0.03em;
 }
+
 .footer-name-choco{
 color: #FD9222;
 }
-.parag-footer {color: #FFF;
+
+
+.parag-footer {
+    color: #FFF;
     text-align: center;
     font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.28;
-    /* 128.571% */
+
 }
 
 .list-footer {}
 
 .item-footer {}
+
+.link-soc-footer{
+
+}
+
+
+
+
+.footer-address {
+
+}
 
 .parag-address {
     color: #FFF;
@@ -379,9 +455,14 @@ color: #FD9222;
 
 }
 
+
 .list-address {}
 
-.link-contact, .link-cont { 
+.link-contact{
+
+}
+
+.link-cont { 
     color: #FFF;
     text-align: center;
     font-family: Montserrat;
@@ -393,11 +474,33 @@ color: #FD9222;
     letter-spacing: -0.02em;
 }
 
-.item-nav-footer, .link-footer {
+
+.item-nav-footer{
+
+}
+
+.link-footer {
     color: #FFF;
         font-size: 14px;
         font-weight: 500;
         line-height: 1.14;
         /* 114.286% */
         letter-spacing: -0.02em;
+}
+
+
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
