@@ -247,8 +247,8 @@ width: calc((100% - 88px *2) / 3);
     border-radius: 15px;
         border: 1px solid #FD9222;
         background: #FFF;
-width: calc((100% - 96px) /4);
-padding: 28px 24px;
+        width: calc((100% - 96px) /4);
+        padding: 28px 24px;
 }
 
 .img-taste{
@@ -267,7 +267,7 @@ padding: 28px 24px;
         padding: 5px;
 }
 
-
+/* --------------------------------SECTION MADE---------------- */
 
 
 .section-made {
@@ -328,9 +328,14 @@ color: #111;
     line-height: 1.29;
     letter-spacing: -0.02em;
 }
+ 
+/* -----------------------SECTION Products---------------- */
+ /* -----------------------SECTION Products---------------- */
+
 
 
 .section-products{
+    padding-top: 120px;
 
 }
 
@@ -340,20 +345,40 @@ color: #111;
         font-size: 24px;
         font-weight: 600;
         line-height: 1.16;
-        /* 116.667% */
         letter-spacing: -0.03em;
         text-transform: uppercase;
+        margin-bottom: 50px;
 }
 .name-product{
 color: #FD9222;
 }
+
+
 .list-section-products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 18px;
 
 }
 
 .item-section-products{
+width: 270px;
+    height: 364px;
+    flex-shrink: 0;
+    border-radius: 15px;
+        border: 1px solid rgba(17, 17, 17, 0.10);
+        background: #FFF;
+}
+.container-product{
+    display: flex;
+    flex-direction: column;
+ text-align: center;
 
 }
+.img-section-product{
+    margin: 32px 20px 20px;
+}
+
 
 .title-name-products {
     color: #111;
@@ -371,19 +396,34 @@ font-family: inherit;
     font-weight: 400;
     line-height: 1.16;
     letter-spacing: -0.02em;
+    padding-bottom: 18px;
 }
-.button-uah{
+.button-uah {
     color: #111;
         font-family: Montserrat;
         font-size: 14px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
+        border-radius: 100px;
+            border: 1px solid rgba(17, 17, 17, 0.10);
+            background: #FAFAFA;
 }
 
-.section-top {}
+
+/* ------------------SECTION TOP----------- */
+
+/* ------------------SECTION TOP----------- */
+
+
+
+
+.section-top {
+    padding-top: 120px;
+}
 
 .title-section-top {
+    margin-bottom: 50px;
     text-align: center;
     font-size: 24px;
     font-weight: 600;
@@ -391,11 +431,17 @@ font-family: inherit;
     letter-spacing: -0.03em;
     text-transform: uppercase;
 }
+
 .name-span{
 color: #FD9222;
 }
 
+
 .list-section-top{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 16px;
 
 }
 .item-section-top{
@@ -403,15 +449,26 @@ color: #FD9222;
 }
 
 .title-item-section-top {
+text-align: center;
+padding: 28px 28px;
     color: #111;
         font-size: 18px;
         font-weight: 600;
         line-height: 1.33;
         letter-spacing: -0.02em;
         text-transform: uppercase;
+        border-radius: 0px 0px 15px 15px;
+            border-right: 1px solid rgba(17, 17, 17, 0.10);
+            border-bottom: 1px solid rgba(17, 17, 17, 0.10);
+            border-left: 1px solid rgba(17, 17, 17, 0.10);
+            background: #FFF;
 }
 
 /* --------section-reviews-------- */
+
+.section-reviews{
+    padding-top: 120px;
+}
 
 .name-chocolate{
 color: #FD9222;
@@ -426,6 +483,7 @@ color: #FD9222;
 }
 .title-section-reviews {
 color: #111;
+text-align: center;
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
@@ -435,9 +493,28 @@ color: #111;
     text-transform: uppercase;
 }
 
-.list-section-reviews {}
+.list-section-reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    margin-top: 50px;
 
-.item-section-reviews {}
+}
+.img-reviews{
+
+}
+
+.item-section-reviews {
+    width: 360px;
+        height: 200px;
+        flex-shrink: 0;
+    border-radius: 15px;
+        border: 1px solid rgba(17, 17, 17, 0.10);
+        background: #FFF;
+        box-shadow: 0px 9.049px 100px 0px rgba(17, 17, 17, 0.03);
+
+}
 
 .name-title-section-reviews {
     color: #111;
@@ -447,24 +524,35 @@ color: #111;
         line-height: 1.33;
 }
 
-.paragraph-item-section-reviews {color: rgba(17, 17, 17, 0.70);
+.paragraph-item-section-reviews{
+    color: rgba(17, 17, 17, 0.70);
     text-align: center;
     font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.28;
-    /* 128.571% */
     letter-spacing: -0.02em;
 }
 
 .button-section-reviews {
+    display: flex;
+        width: 222px;
+        height: 50px;
+        padding: 14px 40px;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 14px;
+        flex-shrink: 0;
+margin: 50px auto;
     color: #111;
         font-family: Montserrat;
         font-size: 18px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
+        border-radius: 100px;
+            border: 1px solid #FD9222;
 }
 
 
@@ -472,9 +560,13 @@ color: #111;
 .footer{
     background: #1E1823;
 }
-
+.container-foot{
+    display: flex;
+}
 
 .title-footer {
+    padding-top: 50px;
+    max-width: 300px;
     color: #FFF;
     font-family: Montserrat;
     font-size: 28px;
@@ -500,7 +592,13 @@ color: #FD9222;
 
 }
 
-.list-footer {}
+.list-footer {
+display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+
+}
 
 .item-footer {}
 
@@ -528,7 +626,9 @@ color: #FD9222;
 }
 
 
-.list-address {}
+.list-address {
+    display: flex;
+}
 
 .link-contact{
 
@@ -542,7 +642,6 @@ color: #FD9222;
     font-style: normal;
     font-weight: 400;
     line-height: 1.28;
-    /* 128.571% */
     letter-spacing: -0.02em;
 }
 
